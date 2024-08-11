@@ -5,7 +5,7 @@ public class JavaConsoleRepoApp {
 		// TODO Auto-generated method stub
 
 		
-		System.out.println("Iam Integerated to Git and Github");
+		System.out.println("Iam Integerated to Git and Github and executed by Jenkins");
 	}
 
 }
