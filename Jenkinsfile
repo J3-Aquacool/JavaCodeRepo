@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir(D:\JavaCodingRepo\git\JavaCodeRepo\PipelineJenkinsWithSCM") {
+                dir(D:\\JavaCodingRepo\\git\\JavaCodeRepo\\PipelineJenkinsWithSCM") {
                 bat 'mvn -B -DskipTests clean compile package exec:java'
                 }
             }
