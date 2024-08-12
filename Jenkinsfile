@@ -16,6 +16,18 @@ pipeline {
                 bat 'mvn -B -DskipTests clean compile package exec:java'
                 }
             }
+         
         }
-     }
+      stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
+    
+    }
     }
