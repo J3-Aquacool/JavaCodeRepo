@@ -16,6 +16,16 @@ pipeline {
                 bat 'mvn -B -DskipTests clean compile package exec:java'
                 }
             }
+         
         }
-     }
+      stage('Test') {
+            steps {
+                 dir("D:\\JavaCodingRepo\\git\\JavaCodeRepo\\PipelineJenkinsWithSCM")
+                {
+                bat 'mvn test'
+                }
+                }
+         }
+    
+    }
     }
