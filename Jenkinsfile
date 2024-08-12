@@ -21,8 +21,10 @@ pipeline {
       stage('Test') {
             steps {
                  dir("D:\\JavaCodingRepo\\git\\JavaCodeRepo\\PipelineJenkinsWithSCM")
+                {
                 bat 'mvn test'
-            }
+                }
+                }
          }
     
     }
