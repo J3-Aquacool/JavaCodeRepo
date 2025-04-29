@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.demo.AppTest" time="0.005" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="JavaMavenAppGithubJenkinIntegration"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/18/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="07bd5ef1c2e54f8a"/>
+    <property name="POM_ARTIFACTID" value="MavenGithubJenkins"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="MavenGithubJenkins"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="UBL-LC-JAGADI$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="JavaMavenAppGithubJenkinIntegration"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/18/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#18"/>
+    <property name="OneDrive" value="C:\Windows\system32\config\systemprofile\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="e633e02003abba28e9570ed298f3358ab71128f1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="UBL-LC-JAGADI$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="D:\apache-maven-3.8.1\conf"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/18/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/18/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="e633e02003abba28e9570ed298f3358ab71128f1"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/display/redirect"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="UBL-LC-JAGADI"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="com.demo"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-JavaMavenAppGithubJenkinIntegration-18"/>
+    <property name="JENKINS_SERVER_COOKIE" value="07bd5ef1c2e54f8a"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\apache-maven-3.8.1/bin;C:\Program Files\Java\jdk-17\bin;D:\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;D:\apache-maven-3.8.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;D:\sonarqube-8.9.10.61524\bin;D:\sonar-scanner-5.0.1.3006-windows\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;D:\Terraform;D:\mongosh-2.2.10-win32-x64\bin;C:\sonar-scanner-cli-6.1.0.4477-windows-x64\sonar-scanner-6.1.0.4477-windows-x64\bin;D:\Minikube;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="ZES_ENABLE_SYSMAN" value="1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="D:\apache-maven-3.8.1"/>
+    <property name="java.class.path" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;D:\apache-maven-3.8.1\boot\plexus-classworlds-2.6.0.jar;D:\apache-maven-3.8.1/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.8.1 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-3248.3250.v3277a_8e88c9b_.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 57037"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-17\bin;D:\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;D:\apache-maven-3.8.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;D:\sonarqube-8.9.10.61524\bin;D:\sonar-scanner-5.0.1.3006-windows\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;D:\Terraform;D:\mongosh-2.2.10-win32-x64\bin;C:\sonar-scanner-cli-6.1.0.4477-windows-x64\sonar-scanner-6.1.0.4477-windows-x64\bin;D:\Minikube;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="M2_HOME" value="D:\apache-maven-3.8.1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="HUDSON_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="PATH+MAVEN" value="D:\apache-maven-3.8.1/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/18/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="D:\JavaCodingRepo\git\JavaCodeRepo\MavenGithubJenkins"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/JavaMavenAppGithubJenkinIntegration/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="MAVEN_HOME" value="D:\apache-maven-3.8.1"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BASE" value="D:\CICD\Jenkins"/>
+    <property name="BUILD_NUMBER" value="18"/>
+    <property name="PROCESSOR_REVISION" value="8c01"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="5c6795f3a74c26767a8d74ec4af7d6bd17106fc7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\ProgramData\Jenkins\.jenkins\workspace\JavaMavenAppGithubJenkinIntegration@tmp"/>
+    <property name="WORKSPACE" value="C:\ProgramData\Jenkins\.jenkins\workspace\JavaMavenAppGithubJenkinIntegration"/>
+    <property name="maven3.interceptor.common" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
+    <property name="WINSW_EXECUTABLE" value="D:\CICD\Jenkins\jenkins.exe"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="GIT_URL" value="https://github.com/J3-Aquacool/JavaCodeRepo"/>
+  </properties>
+  <testcase classname="com.demo.AppTest" name="testApp" time="0.005"/>
+</testsuite>
